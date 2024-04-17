@@ -84,10 +84,10 @@ header .menu.active {
     position: absolute;
     right: 100px;
     top: 0;
-    width: 30%;
+    width: 36%;
     height: 5px;
     border-bottom: 5px solid;
-    border-image: linear-gradient(90deg, transparent, var(--primary), var(--primary)) 30;
+    border-image: linear-gradient(90deg, transparent, var(--primary)) 30;
     background: transparent;
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(20px);
