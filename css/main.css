@@ -102,8 +102,9 @@ header .menu.active {
     top: 100px;
     width: 40%;
     height: 100px;
-    border-top: 5px solid;
+    border-bottom: 5px solid;
     border-image: linear-gradient(90deg, transparent, var(--primary), transparent) 30;
+    
 }
 
 .nav li {
