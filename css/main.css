@@ -160,6 +160,7 @@ header .menu.active {
 }
 
 .banner::after {
+    @media screen and (max-width: 768px) {
     position:absolute;
     content: '';
     top: 0;
@@ -174,9 +175,10 @@ header .menu.active {
         rgba(0, 0, 0, 0.6),
         rgba(0, 0, 0, 0.9)
         );
-}
+}}
 
 .banner .bg-video {
+    @media screen and (max-width: 768px) {
     display: none;
     position: absolute;
     content: '';
@@ -186,27 +188,29 @@ header .menu.active {
     height: 150%;
     object-fit: cover;
     object-position: center;
-}
+}}
 
 .banner .bg-video.active {
     display: block;
 }
 
 .banner .content {
+    @media screen and (max-width: 768px) {
     position: relative;
     max-width: 90%;
     padding-bottom: 150px;
     z-index: 100;
-}
+}}
 
 .banner .content h1 {
+    @media screen and (max-width: 768px) {
     font-family: "Racing Sans One", cursive;
     font-size: 100px;
     color: #ffff;
     font-weight: 900px;
     line-height: 0.3em;
     letter-spacing: 5px;
-}
+}}
 
 .banner .content .model {
     font-size: 40px;
@@ -246,8 +250,9 @@ header .menu.active {
 }}
 
 .banner .content a:hover {
+    @media screen and (max-width: 768px) {
     box-shadow: inset 0 0 50px rgba(0, 194, 222, 0.5);
-}
+}}
 
 .banner .galeria {
     @media screen and (max-width: 768px) {
