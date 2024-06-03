@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @media screen and (max-width:2400px) {
 * {
+   
     margin:0;
     padding: 0;
     box-sizing: border-box;
@@ -11,11 +12,13 @@
 }
 
 body {
+   
     background: black;
     font-family: "Roboto", sans-serif;
 }
 
 header {
+    
     position: absolute;
     top: 0;
     left: 0;
@@ -28,6 +31,7 @@ header {
 }
 
 header::after {
+   
     position: absolute;
     content: '';
     top: 50%;
@@ -49,6 +53,7 @@ header::after {
 }
 
 header .year {
+    
     font-family: "Racing Sans One", cursive;
     font-size: len;
     color: #ffff;
@@ -58,6 +63,7 @@ header .year {
 }
 
 header .menu {
+   
     position: relative;
     height: 30px;
     width: 30px;
@@ -69,6 +75,7 @@ header .menu {
 }
 
 header .menu.active {
+    
     position: relative;
     height: 30px;
     width:  30px;
@@ -80,6 +87,7 @@ header .menu.active {
 }
 
 .nav {
+   
     z-index: 100;
     position: fixed;
     right: 50px;
@@ -96,18 +104,21 @@ header .menu.active {
     align-items: center;
     transition: 1s;
     transform-origin: right;
+    
 }
 
 .nav.active {
+   
     top: 100px;
     width: 40%;
     height: 100px;
-    border-top: 5px solid;
+    border-bottom: 5px solid;
     border-image: linear-gradient(90deg, transparent, var(--primary), transparent) 30;
-    border-bottom: none;
+    
 }
 
 .nav li {
+    
     position: relative;
     list-style: none;
     opacity: 0;
@@ -123,6 +134,7 @@ header .menu.active {
 }
 
 .nav li a {
+
     text-decoration: none;
     display: inline-flex;
     align-items: center;
@@ -141,6 +153,7 @@ header .menu.active {
 }
 
 .banner {
+
     position: relative;
     width: 100%;
     min-height: 100vh;
@@ -153,6 +166,7 @@ header .menu.active {
 }
 
 .banner::after {
+   
     position:absolute;
     content: '';
     top: 0;
@@ -170,6 +184,7 @@ header .menu.active {
 }
 
 .banner .bg-video {
+   
     display: none;
     position: absolute;
     content: '';
@@ -186,6 +201,7 @@ header .menu.active {
 }
 
 .banner .content {
+   
     position: relative;
     max-width: 90%;
     padding-bottom: 150px;
@@ -193,6 +209,7 @@ header .menu.active {
 }
 
 .banner .content h1 {
+   
     font-family: "Racing Sans One", cursive;
     font-size: 100px;
     color: #ffff;
@@ -221,6 +238,7 @@ header .menu.active {
 }
 
 .banner .content a {
+    
     position: relative;
     width: 200px;
     color: #ffff;
@@ -238,10 +256,12 @@ header .menu.active {
 }
 
 .banner .content a:hover {
+   
     box-shadow: inset 0 0 50px rgba(0, 194, 222, 0.5);
 }
 
 .banner .galeria {
+    
     position: absolute;
     content: '';
     left: 300px;
@@ -253,4 +273,4 @@ header .menu.active {
     display: flex;
     justify-content: center;
     align-items: center;
-}}
+}
