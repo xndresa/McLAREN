@@ -274,3 +274,56 @@ header .menu.active {
     justify-content: center;
     align-items: center;
 }
+
+@media (max-width: 600px) {
+    header {
+        padding: 20px 50px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5px;
+    }
+    header::after {
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: var(--primary);
+    }
+    .logo {
+        margin-top: 10px;
+    }
+    .nav {
+        right: 0;
+        width: 100%;
+    }
+    .nav.active {
+        right: 0;
+        top: 0;
+        width: 100vh;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .banner {
+        padding: 50px 30px 180px;
+    }
+
+    .banner.content {
+        position: relative;
+        padding: 50px 0 100px;
+    }
+    
+    .banner .content .model {
+        font-size: 2em;
+    }
+    .banner .content a {
+        padding: 10px 30px;
+    }
+    .banner .screen {
+        display: none;
+    }
+
+    .banner .galeria {
+        width: 100%;
+        left: 0;
+    }
+}
