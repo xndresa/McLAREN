@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@media screen and (max-width:2400px) {}
+
 * {
    
     margin:0;
@@ -67,7 +67,7 @@ header .menu {
     position: relative;
     height: 30px;
     width: 30px;
-    background: url('/imagens/menu-3-fill.png') no-repeat;
+    background: url('/imagens/menu-3-fill.png') repeat;
     background-size: 30px;
     background-position: center;
     filter: invert(1);
@@ -79,7 +79,7 @@ header .menu.active {
     position: relative;
     height: 30px;
     width:  30px;
-    background: url(/imagens/close-line.png) no-repeat;
+    background: url(/imagens/close-line.png) repeat;
     background-size: 30px;
     background-position: center;
     filter: invert(1);
