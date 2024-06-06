@@ -9,9 +9,9 @@ Troca Dinâmica de Background: A seleção do carro na página principal resulta
 Informações Detalhadas: Além da experiência visual, a página oferece informações detalhadas sobre cada carro, incluindo especificações técnicas, características de design e galerias de imagens.
 
 <h3>Tecnologias Utilizadas</h3>
-- HTML5
-- CSS3
-- JavaScript
+<p>- HTML5</p>
+<p>- CSS3</p>
+<p>- JavaScript</p>
 
 
 ![mclaren](https://github.com/xndresa/McLAREN/assets/141786353/a178ebb4-018e-44c4-806c-b35ae4e263d5)
